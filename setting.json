@@ -1,0 +1,42 @@
+{
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true,
+      "backend/database": true,
+      "backend/resources": true,
+      "backend/tests": true,
+      "backend/server.php": true,
+      "backend/.env.example": true,
+      "backend/.gitattributes": true,
+      "backend/.styleci.yml": true,
+      "backend/composer.lock": true,
+      "backend/package.json": true,
+      "backend/phpunit.xml": true,
+      "backend/webpack.mix.js": true,
+      ".vscode": true,
+      "backend/app/Console": true,
+      "backend/app/Exceptions": true,
+      "backend/app/Providers": true
+    },
+    "hide-files.files": [
+      "backend/database",
+      "backend/resources",
+      "backend/tests",
+      "backend/server.php",
+      "backend/.env.example",
+      "backend/.gitattributes",
+      "backend/.styleci.yml",
+      "backend/composer.lock",
+      "backend/package.json",
+      "backend/phpunit.xml",
+      "backend/webpack.mix.js",
+      ".vscode",
+      "backend/app/Console",
+      "backend/app/Exceptions",
+      "backend/app/Providers"
+    ]
+  }
